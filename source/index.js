@@ -158,8 +158,8 @@ process
 
 
 
-
-
+//////////////////////////
+//////////////////////////
 
 client.on('ready', () => {
 client.user.setGame('Camp Nacho ᶜᶰ | ?create','https://www.twitch.tv/kemo355');
@@ -169,15 +169,4 @@ By Ҝ€₥σ
 `);
 
 });
-
-
-
-
-
-
-
-
-
-
-
 bot.login(process.env.BOT_TOKEN);
