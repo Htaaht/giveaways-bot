@@ -35,29 +35,3 @@ module.exports = class extends Command {
         new Giveaway(this.client, message, match);
     }
 };
-
-
-
-
-
-
-
-///////////////////
-///////////////////
-
-
-
-
-
-
-
-
-
-client.on('ready', () => {
-client.user.setGame('Camp Nacho ᶜᶰ | $help','https://www.twitch.tv/kemo355');
-console.log('Logging into discord..');
-console.log(`
-By Ҝ€₥σ
-`);
-
-});
