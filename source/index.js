@@ -150,4 +150,34 @@ process
     .on("uncaughtException", err => console.error(err.stack))
     .on("unhandledRejection", err => console.error(err.stack));
 
+
+
+
+
+
+
+
+
+
+
+
+client.on('ready', () => {
+client.user.setGame('Camp Nacho ᶜᶰ | $help','https://www.twitch.tv/kemo355');
+console.log('Logging into discord..');
+console.log(`
+By Ҝ€₥σ
+`);
+
+});
+
+
+
+
+
+
+
+
+
+
+
 bot.login(process.env.BOT_TOKEN);
